@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <link rel="icon" href="icon/Tatuarte.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+
+
+<body>
+    <!-- Navegador -->
+    <header class="cd-auto-hide-header">
+        <div class="logo"><a href="index.html"><img src="images/tatuarte1.png" alt="Logo"></a></div>
+    
+        <nav class="cd-primary-nav">
+            <a href="#cd-navigation" class="nav-trigger">
+                <span>
+                    <em aria-hidden="true"></em>
+                    Menu
+                </span>
+            </a> <!-- .nav-trigger -->
+    
+            <ul id="cd-navigation">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav> <!-- .cd-primary-nav -->
+    </header> <!-- .cd-auto-hide-header -->
+    
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/foto5.png" alt="Foto tatuaje"></div>
+                <div class="swiper-slide"><img src="images/foto2.png" alt="Foto tatuaje"></div> 
+                <div class="swiper-slide"><img src="images/foto1.png" alt="Foto tatuaje"></div>  
+                <div class="swiper-slide"><img src="images/foto6.png" alt="Foto tatuaje"></div> 
+                <div class="swiper-slide"><img src="images/wallpaperflare.com_wallpaper.jpg" alt=""></div> 
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+<!-- Videos -->
+<div class="videostatuajes">   
+    <video src="tattoo/Archivo.mp4"controls width="240"></video>
+    <video src="tattoo/Secuencia 01_1.mp4" controls width="240"></video>
+    <video src="tattoo/Megan.mp4" controls width="240"></video>
+    <video src="tattoo/Secuencia 01_1.mp4" controls width="240"></video>
+</div>
+
+<div class="videostatuajes2">
+    <iframe width="360" height="315" src="https://www.youtube.com/embed/6P5rkZ0eV8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+    <iframe width="360" height="315" src="https://www.youtube.com/embed/od6PRs5aPx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="360" height="315" src="https://www.youtube.com/embed/ZBAMzgCqveE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<!-- Javascript -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+    
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              spaceBetween: 30,
+              centeredSlides: true,
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+    </script>
+    <!-- Fin de sliders -->
+    
+
+     <!-- .cd-main-content -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+     <script>
+         if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+     </script>
+     <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+ 
+
+     <footer>
+    
+        <div class="container-footer-all">
+         
+             <div class="container-body">
+    
+                 <div class="colum1">
+                     <h1>Mas información</h1>
+    
+                     <p>En <strong> Tatuarte Studio</strong> estamos dispuestos a trabajar con la mejor energía, pasión y dedicación 
+                        para garantizarte la mejor asesoría y el mejor servicio, haciendo tu experiencia única... <br> <br>
+                        Hagamos del tatuaje una extensión de nuestro cuerpo.</p>
+                 </div>
+    
+                 <div class="colum2">
+    
+                     <h1>Redes Sociales</h1>
+    
+                     <a class="linkdered" href="https://www.facebook.com/JhonGonzalezTattooArtist/" target="_blank"><div class="row"> 
+                         <img src="icon/facebook.png">
+                         <label>Jhon González Art</label>
+                     </div>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/jhon.gonzalez.ink/?fbclid=IwAR0GM8B1Qs5Lz48GXaZbWuDKPaVbEE6LIn37AjXn3dfShC2M6noU4TPlcZw" target="_blank"><div class="row">
+                         <img src="icon/instagram.png">
+                         <label>jhon.gonzalez.ink</label>
+                    </div>
+                </div> 
+                   </a> 
+    
+    
+                 <div class="colum3">
+    
+                     <h1>Informacion Contactos</h1>
+    
+                     <div class="row2">
+                         <img src="icon/house.png">
+                         <label> Cra 65 # 69-20
+                                 Bello, Antioquia
+                                 
+                         </label>
+                     </div>
+    
+                     <div class="row2">
+                         <img src="icon/contact.png">
+                          <label>jhon.gonzalezio@amigo.edu.co</label>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         
+         <div class="container-footer">
+                <div class="footer">
+                     <div class="copyright">
+                         © 2021 Todos los Derechos Reservados | <a href="">Jhon González</a>
+                     </div>
+                 </div>
+             </div>
+     </footer>
+</body>
+</html>
